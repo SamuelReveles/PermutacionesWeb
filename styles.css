@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+}
+body {
+    background: rgb(85,92,196);
+    background: linear-gradient(0deg, rgba(85,92,196,1) 0%, rgba(0,0,0,1) 100%);
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    color: rgb(208, 208, 208);
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.main {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.palabra {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    color: black;
+    background-color: whitesmoke;
+    width: 20rem;
+    border-radius: 0.6rem;
+}
+
+textarea {
+    margin-top: 2rem;
+    resize: none;
+    border-radius: 0.6rem;
+    padding-left: 0.5rem;
+}
+
+input {
+    height: 2.3rem;
+    border-radius: 0.6rem;
+    padding-left: 0.5rem;
+}
