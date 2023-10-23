@@ -19,8 +19,8 @@ function permutaciones(palabra){
 }
 
 function factorial(num) {
-    resultado = num;
-    for(i = 1; i <= num; i++) {resultado *= i;}
+    resultado = 1;
+    for(i = num; i >= 1; i--) {resultado *= i;}
     return resultado;
 }
 
